@@ -1,0 +1,358 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ .header img{
+    width: 70px;
+    height: 70px;
+ }
+.image-h1{
+    display: flex;
+}
+
+.image-h1  h1{
+    margin-top: 10px;
+    
+}
+ .header{
+    display: flex;
+  
+    align-items: center;
+    padding: 40px;
+    background-color: yellow;
+
+ }
+
+ .ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-left: 300px;
+    
+ }
+
+ 
+
+
+
+h1{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.About{
+width: 230px;
+height: 3px;
+background-color: blue;
+margin-left: 520px;
+
+}
+.p1{
+text-align: center;
+margin-top: 20px;
+    
+}
+
+.main img{
+width: 500px;
+height: 400px;
+}
+.main-right{
+margin-top: 60px;
+margin-left: 30px;
+}
+.main-right p{
+width: 600px;
+margin-top: 10px;
+}
+
+
+.main{
+display: flex;
+gap: 30px;
+margin: 60px 30px;
+ 
+}
+
+.Read-more{
+background-color: blue;
+border: none;
+border-radius: 12px;
+color: white;
+padding: 20px 20px;
+margin-top: 30px;
+}
+
+
+.main-flex{
+ display: flex;
+     justify-content: space-evenly;
+     margin-top: 120px;
+    }
+
+
+.Mission{
+width: 500px;
+height: 400px;
+background-color: antiquewhite;
+border-radius: 10px;
+}
+
+.Mission{
+text-align: center;
+padding-top: 0px;
+}
+.Mission i{
+font-size: 40px;
+margin-bottom: 15px;
+
+}
+
+.body{
+padding: 20px 20px;
+}
+.body h2{
+margin-bottom: 15px;
+color: blue;
+font-size: 30px;
+}
+
+
+
+
+
+.footer{
+
+    height: 900PX;
+}
+
+
+#Visid{
+    margin-left: 160px;
+
+}
+
+/* contect us */
+
+.contect{
+    background-color: blue;
+    height: 600px;
+    margin-top: 50px;
+    
+
+}
+
+.contect h1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+input{
+    width: 300px;
+    height: 15px;
+    padding: 20px;
+    border: none;
+    border-radius:20px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 335px;
+    height: 100px;
+}
+
+.btn{
+    background-color: blueviolet;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+ 
+
+.child-contect{
+    justify-items: center  ;
+    margin-top: 40px;
+}
+
+/* footer */
+.footer{
+    height: 120px;
+    background-color: #f56565;
+    margin-top: 60px;
+}
+ 
+
+
+
+.icons{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+    
+}
+
+ .coppy-right{
+    background-color: black;
+    height: 120px;
+    
+ 
+ }
+
+ .coppy-right p{
+    color: white;
+    text-align: center;
+    padding: 50px;
+ }
+
+ .right-icons i{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    .p1 h2{
+        width: 370px;
+       
+    }
+    .About{
+        margin: 0px;
+        margin-left: 140px;
+    }
+    .main{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .main-right h3{
+        margin-left: 40px;
+        font-size: 22px;
+    }
+
+    .main-right p{
+
+       margin: 0px;
+       width: 450px;
+       margin-top: 50px;
+       text-align: center;
+       
+    }
+    .Read-more{
+        margin-left: 110px;
+        width: 180px;
+        height: 65px;
+        font-size: 22px;
+    }
+
+    .main-flex{
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .body i{
+        margin-top: 30px;
+        font-size: 100px;
+        
+    }
+    
+    .body h2{
+        margin-top: 30px;
+        font-size: 50px;
+        margin-top: 20px;
+        
+    }
+    .Mission{
+        height: 780px;
+    }
+    .body p{
+        width: 400px;
+        margin-left: 30px;
+    }
+
+    .child-contect h2{
+        margin-bottom: 20px;
+        color: white;
+    }
+
+}
+
+
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 640px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        position: static;
+        margin-top: 0;
+        margin-left: 80px;
+    }
+    .right-icons i{
+        display: block;
+    }
+    #bntMenu, #btnClose {
+        display: none;
+    }
+}
+.navbar {
+    padding-left: 20px;
+}
