@@ -134,7 +134,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
   const textArea = document.getElementById('textArea').value.trim();
 
   if (!fullName || !email || !password || !textArea) {
-    alert("Buuxi Meelaha Banaan");
+    alert("Fill in the Blank Space");
     }
 
     else if (!email.includes('@')) {
@@ -142,13 +142,12 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     }
 
 
-    else if  (password.length < 9 ){
-        alert('password Waa inow kabataa 9')
+    else if  (password.length < 8){
+        alert('password Must be Creater Than 8 ')
 
     }
 
  
-// Hadow User ka Soobuuxiyo Shurudaha Kor Kuxusan Sodaabac (Form submitted successfully)
     else {
         alert("Form submitted successfully ");
     }

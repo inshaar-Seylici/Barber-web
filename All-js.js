@@ -9,12 +9,11 @@
       let email = document.getElementById('iput-1').value;
       let password = document.getElementById('input-2').value;
       
-      //  Hadii password ka iyo Email Ayadoo lagalin lagatago  Sodaabac  (Melaha Bahaan Buuxi )
-
+ // check  if The user Forget a blank Space 
       if (email == "" || password == "") {
         alert("Melaha Bahaan Buuxi " );
       } 
-      //  Email ka Waa iney Kujirtaa Symbol ka(Calaamada ) @
+      //   Email Must be Contain @ Symbol
       else if (!email.includes("@")) {
         alert("Email Ka Waa iney Kujirtaa Calamada '@'.");
       } 
@@ -32,7 +31,7 @@
 
 //   Rigesteration page
 
-// Waxow kahortagaa Submite ka 
+// 
 
 document.getElementById('loginForm').addEventListener('submit', function (event) {
   event.preventDefault(); 
@@ -44,8 +43,6 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
   const password = document.getElementById('Password').value.trim();
   const confirmPassword = document.getElementById('ConfirmPassword').value.trim();
 
-
-//  Hadii password ka,Email iyo C-password ka  Ayadoo lagalin lagatago  Sodaabac  (Blank space required )
 
  
   if (fullName == '' || email   =='' || password == ''|| confirmPassword == '') {
